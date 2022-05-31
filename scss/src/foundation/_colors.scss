@@ -30,3 +30,27 @@ $form-bg: var(--dse-form-bg, $white) !default;
 $form-error-color: var(--dse-form-error-color, $red) !default;
 $form-error-border: var(--dse-form-error-border, $red) !default;
 $form-error-focus-color: var(--dse-form-error-focus-color, $green) !default;
+
+/*========================================
+          App Bar
+========================================*/
+
+$appbar-color: var(--dse-appbar-color, $dark) !default;
+$appbar-bg: var(--dse-appbar-bg, $white) !default;
+
+$appbar-secondary-color: var(--dse-appbar-color, $white) !default;
+$appbar-secondary-bg: var(--dse-appbar-bg, $blue) !default;
+
+/*========================================
+          Fab
+========================================*/
+
+$fab-color: var(--dse-fab-color, $white) !default;
+
+$fab-bg: var(--dse-fab-bg, $blue) !default;
+$fab-bg-hover-color: var(--dse-fab-bg-hover-color, $blue-light) !default;
+$fab-secondary-bg: var(--dse-fab-bg, $green) !default;
+$fab-secondary-bg-hover-color: var(
+  --dse-fab-secondary-bg-hover-color,
+  $green-light
+) !default;

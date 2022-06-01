@@ -19,5 +19,5 @@
           Base
 ========================================*/
 
-@import './base/normalize';
+@use './base/reset' as *;
 @import './base/root';

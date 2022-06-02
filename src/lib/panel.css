@@ -1,0 +1,104 @@
+/*========================================
+    #Variables
+========================================*/
+/**
+*
+* TABLE OF CONTENT
+*
+* COLORS
+* Brand colors ......................... These are the main brand colors. they will be used the most.
+* Neutral colors ....................... White and black, gray scale, secondary colors.
+* Utility colors ....................... Other colors to represent states: info, warning, success, etc.
+*
+* TYPOGRAPHY
+* Font families ........................ The fonts used in the design system.
+* Font weights ......................... Font weights.
+* Sizes ................................ Font sizing for the body text, paragraphs, inputs.
+* Heading sizes ........................ Font sizing for hte page headings.
+*
+* BREAKPOINTS
+* Breakpoints .......................... Global responsive breakpoints definitions.
+*
+* SPACING
+* Spacing .............................. Global fixed set of spacing variables
+*
+*/
+/*========================================
+    Colors
+========================================*/
+/* Brand Colors */
+/* Neutral Colors */
+/* Utility Colors */
+/*========================================
+    Typography
+========================================*/
+/*
+*
+* 1) The playfair font. We'll use this for headings mostly.
+*     https://fonts.google.com/specimen/Playfair+Display
+* 
+* 2) The raleway font. We'll use this for body text.
+*     https://fonts.google.com/specimen/Raleway
+*
+ */
+/* 1 */
+/* 2 */
+/* Heading Font Sizes */
+/* Font Weights */
+/*========================================
+    Breakpoints
+========================================*/
+/*========================================
+    Spacing
+========================================*/
+/*========================================
+          Foundation - colors
+========================================*/
+/**
+* This file defines the actual colors that will be used for styling.
+**/
+/*========================================
+          Global text colors
+========================================*/
+/*========================================
+          Buttons
+========================================*/
+/*========================================
+          Forms
+========================================*/
+/*========================================
+          App Bar
+========================================*/
+/*========================================
+          Fab
+========================================*/
+/*========================================
+          Foundation - Typography
+========================================*/
+/**
+* This file defines the font sizes to be used.
+**/
+/*========================================
+          Body font size
+========================================*/
+/*========================================
+          Heading font size
+========================================*/
+/*========================================
+          Heading font wieghts
+========================================*/
+/*========================================
+          Mixins
+========================================*/
+/**
+* Helpful reusable function-like things that will be used to implement style for components.
+**/
+/*========================================
+          Breakpoint Mixins
+========================================*/
+/*========================================
+          margin/padding Mixins
+========================================*/
+.dse-button__container {
+  display: flex;
+}

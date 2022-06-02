@@ -13,11 +13,11 @@
           Foundation
 ========================================*/
 
-@use "./foundation/all" as *;
+@import "./foundation/all";
 
 /*========================================
           Base
 ========================================*/
 
-@use "./base/reset" as *;
+@import "./base/reset";
 @import "./base/root";

@@ -1,28 +1,23 @@
 {
-  "name": "@ds.e/scss",
+  "name": "@ds.e/core",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/TegHocine/react-atoms-design.git",
+  "author": "TegHocine <arcou98@hotmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "normalize-scss": "^7.0.1"
-  },
   "devDependencies": {
-    "husky": "^7.0.0",
-    "lint-staged": "^13.0.0",
-    "node-sass": "^7.0.1",
-    "prettier": "^2.6.2",
-    "stylelint": "^14.8.5",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-sass-guidelines": "^9.0.1",
-    "stylelint-prettier": "^2.0.0"
+    "lerna": "^5.0.0"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
   },
   "scripts": {
-    "lint": "stylelint ./**/*.scss",
-    "lint:fix": "yarn lint --fix",
-    "prepare": "husky install",
-    "build": "node src/scripts/build.js"
-  },
-  "lint-staged": {
-    "*.scss": "yarn lint:fix"
+    "build": "yarn lerna run build"
   }
 }
